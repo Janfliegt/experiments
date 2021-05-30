@@ -6,4 +6,5 @@
 
 3.init
 
-4. ILM
+4. ILM:
+每个层不同的context vector:many single, 
