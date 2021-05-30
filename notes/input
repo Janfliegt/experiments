@@ -1,8 +1,20 @@
-操作
-1.zero mean, 1 std
-2.augmentations
-3.specAugment
+1.frontend
+  -n_fft=512, win_length=512, hop_length=256
+  -feature:mfcc, log mel fbank
+  -dim:40, 80
+2. data augmentation
+  -speed pert
+  -specAugmet
+  ...
+3. normalization
+  -global
+  -per seq
 
-特征维度
-1.mfcc, fbank
-2.40/80 维
+4.subsampling
+ ---位置
+     -开始
+     -中间
+ ---方式
+    -conv2d
+    -max pooling
+    -拼接
