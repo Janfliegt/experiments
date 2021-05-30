@@ -5,3 +5,4 @@
 5. Cyclic LR
 6.multi att
 7. local attention/group norm
+8.pretraining: start layer with 3 or 4
