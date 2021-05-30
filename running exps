@@ -1,8 +1,14 @@
-1.augmentation
+1.augmentations
+-0.9, 1, 1.1(aug 1)
+-0.9, 0.95, 1, 1.05, 1.1 (aug2)
+-uniform(0.9, 1.1)(aug3)
+-uniform(0.9, 1.1) with prob 0.3 don't apply speed pert(aug5)
+
 
 
 2.L2:
 去掉L2看结果会不会提升
+-aug1 - L2
 
 3.init
 
