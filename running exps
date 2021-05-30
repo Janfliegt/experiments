@@ -15,3 +15,6 @@
 4. ILM:
 每个层不同的context vector:many single
 不同的方法:no-linear, import-linear, freeze-linear, scratch-linear
+
+5.subsampling
+  -conv2d in espnet 测试是否比max pooling好
