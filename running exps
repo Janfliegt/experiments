@@ -13,4 +13,5 @@
 3.init
 
 4. ILM:
-每个层不同的context vector:many single, 
+每个层不同的context vector:many single
+不同的方法:no-linear, import-linear, freeze-linear, scratch-linear
