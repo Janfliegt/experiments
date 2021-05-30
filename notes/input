@@ -1,0 +1,8 @@
+操作
+1.zero mean, 1 std
+2.augmentations
+3.specAugment
+
+特征维度
+1.mfcc, fbank
+2.40/80 维
