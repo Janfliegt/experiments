@@ -31,6 +31,8 @@
     -max pooling:
     -拼接frames
  5. positional encoding/scale:
-  -加入posirion encoding(optional)
+  -加入posirion encoding(optional):
+      --explictLy
+      --blstm
   -乘以math.sqrt(d_model):效果会变好,原因尚不明
     
