@@ -7,8 +7,12 @@
 2.new mini-lstm
   -train mini-lst2
   -testing 
+  
+3. old mini-lstm
+  -train mini-lstm:四种不同的类型
+  -testing
 
-3.init
+4.init
 
 5.subsampling
   -conv2d in espnet 测试是否比max pooling好
