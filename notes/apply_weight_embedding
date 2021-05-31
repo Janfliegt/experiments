@@ -1,0 +1,1 @@
+对输入encoder部分的embedding乘以math.sqrt(d_model)结果会变好,具体原因还不明
