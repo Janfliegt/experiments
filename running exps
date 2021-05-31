@@ -1,20 +1,12 @@
 1.augmentations
--0.9, 1, 1.1(aug 1)
--0.9, 0.95, 1, 1.05, 1.1 (aug2)
--uniform(0.9, 1.1)(aug3)
--uniform(0.9, 1.1) with prob 0.3 don't apply speed pert(aug5)
-
-
-
-2.L2:
-去掉L2看结果会不会提升
--aug1 - L2
+  -0.9, 1, 1.1(aug 1)
+  -0.9, 0.95, 1, 1.05, 1.1 (aug2)
+  -uniform(0.9, 1.1)(aug3)
+  -uniform(0.9, 1.1) with prob 0.3 don't apply speed pert(aug5)
 
 3.init
 
-4. ILM:
-每个层不同的context vector:many single
-不同的方法:no-linear, import-linear, freeze-linear, scratch-linear
-
 5.subsampling
   -conv2d in espnet 测试是否比max pooling好
+6.num_blocks:
+  -16-3 vs 12-6
