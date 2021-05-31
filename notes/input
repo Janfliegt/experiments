@@ -14,7 +14,17 @@
  ---位置
      -开始
      -中间
+ --- factor:4, 6, 8
  ---方式
-    -conv2d
-    -max pooling
-    -拼接
+    -conv2d:
+            torch.nn.Conv2d(1, odim, 3, 2),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(odim, odim, 3, 2),
+            torch.nn.ReLU(),
+            self.out = torch.nn.Sequential(
+            torch.nn.Linear(odim * (((idim - 1) // 2 - 1) // 2), odim),
+            pos_enc if pos_enc is not None else PositionalEncoding(odim, dropout_rate),
+            )
+    -max pooling:
+    -拼接frames
+    
