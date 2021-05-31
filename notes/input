@@ -1,22 +1,25 @@
 1.frontend
-  -n_fft=512, win_length=512, hop_length=256
+  -n_fft=512/400, win_length=512/400, hop_length=256/160
   -feature:mfcc, log mel fbank
   -dim:40, 80
+  
 2. data augmentation
-  -speed pert
-  -specAugmet
+  -speed pert(usually offline)
+  -specAugmet(online)
   ...
+  
 3. normalization
-  -global
+  -global(better)
   -per seq
 
 4.subsampling
- ---位置
+  ---位置
      -开始
      -中间
  --- factor:4, 6, 8
  ---方式
     -conv2d:
+        e.g.(factor 4)
             torch.nn.Conv2d(1, odim, 3, 2),
             torch.nn.ReLU(),
             torch.nn.Conv2d(odim, odim, 3, 2),
