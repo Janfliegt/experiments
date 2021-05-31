@@ -4,9 +4,14 @@
   -uniform(0.9, 1.1)(aug3)
   -uniform(0.9, 1.1) with prob 0.3 don't apply speed pert(aug5)
 
+2.new mini-lstm
+  -train mini-lst2
+  -testing 
+
 3.init
 
 5.subsampling
   -conv2d in espnet 测试是否比max pooling好
+  
 6.num_blocks:
   -16-3 vs 12-6
