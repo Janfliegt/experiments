@@ -11,4 +11,6 @@
   -conv2d in espnet 测试是否比max pooling好
  
 4. 计算不同错误类型
+
+5.加上enc_scale, final norm 和dec l2
   
