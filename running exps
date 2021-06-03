@@ -13,4 +13,8 @@
 4. 计算不同错误类型
 
 5.加上enc_scale, final norm 和dec l2
+
+6.lr:
+  -noam
+  -OneCycle
   
