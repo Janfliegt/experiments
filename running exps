@@ -4,24 +4,11 @@
   -uniform(0.9, 1.1)(aug3)
   -uniform(0.9, 1.1) with prob 0.3 don't apply speed pert(aug5)
 
-2.new mini-lstm
-  -train mini-lst2
-  -testing: 4 种类型, lstm 和transformer 各自提升多少
-  
-3. old mini-lstm
-  -train mini-lstm:四种不同的类型
-  -testing:4 种类型, lstm 和transformer各自提升多少
 
-4.init
+2.init
 
-5.subsampling
+3.subsampling
   -conv2d in espnet 测试是否比max pooling好
-  
-6.num_blocks:
-  -16-3 vs 12-6
-
-7. pretrainig:
-  -从4layers开始
-
-8. 计算不同错误类型
+ 
+4. 计算不同错误类型
   
