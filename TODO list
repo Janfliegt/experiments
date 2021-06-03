@@ -7,3 +7,9 @@
 7. local attention/group norm
 8.pretraining: start layer with 3 or 4
 9.input: 10ms window, 2.5ms stride
+10.num_blocks:
+  -16-3 vs 12-6
+11.stochstic layers
+12.pos enc
+13.model avareage
+
