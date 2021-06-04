@@ -1,0 +1,7 @@
+1.speed pert
+  -0.9, 1, 1.1(aug 1)
+  -0.9, 0.95, 1, 1.05, 1.1 (aug2)
+  -uniform(0.9, 1.1)(aug3)
+  -uniform(0.9, 1.1) with prob 0.3 don't apply speed pert(aug5)
+  
+  1和2效果几乎一样,3略差,5没有收敛,但是应该是bad luck,应该和3差不多
