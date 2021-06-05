@@ -1,0 +1,12 @@
+可以搭配pretraining使用
+
+1.newbob:
+  -warmup(可选)
+  -一个较大的学习率
+  -根据dev score逐渐减小学习率
+2.noam
+  -warmup,线性增加学习率
+  -到达warmup step后逐渐减小学习率
+3.OneCycle
+  -一个cycle和noam类似
+  -可以有多个cycle
