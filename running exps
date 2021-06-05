@@ -1,9 +1,3 @@
-1.augmentations
-  -0.9, 1, 1.1(aug 1)
-  -0.9, 0.95, 1, 1.05, 1.1 (aug2)
-  -uniform(0.9, 1.1)(aug3)
-  -uniform(0.9, 1.1) with prob 0.3 don't apply speed pert(aug5)
-
 
 2.init
 
@@ -17,4 +11,7 @@
 6.lr:
   -noam
   -OneCycle
+7.xl_rel
+  -加预训练
+  
   
