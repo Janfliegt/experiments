@@ -1,17 +1,18 @@
 
-2.init
+1.init
 
-3.subsampling
-  -conv2d in espnet 测试是否比max pooling好
+2.subsampling
+  -conv2d in espnet 和两个的结合是否比max pooling好
  
-4. 计算不同错误类型
+3. 计算不同错误类型
 
-5.加上enc_scale, final norm 和dec l2
-
-6.lr:
+4.lr:
   -noam
   -OneCycle
-7.xl_rel
+  -warup lr
+5.xl_rel
   -加预训练
+
+6.去掉rel pos, 把conv放在前边
   
   
