@@ -14,5 +14,9 @@
   -加预训练
 
 6.去掉rel pos, 把conv放在前边
+
+7.xl rel 去掉enc scale 和最后的norm
+
+8.add one layer
   
   
